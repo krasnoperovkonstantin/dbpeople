@@ -1,0 +1,35 @@
+.wrap { 
+    text-align: center; 
+}
+
+.content { 
+    display: inline-block;
+    text-align: left; 
+    width: 300px;
+}
+
+.input { 
+   width: 100%;
+   padding: 12px 20px;
+   margin: 8px 0;
+   box-sizing: border-box;
+ }
+
+.button { 
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    background-color: #ccc; 
+    color: black;
+    border: none; 
+    outline: none; 
+}
+
+.button:hover { 
+    background-color: #b8b8b8; 
+}
+
+.button:active { 
+    background-color: #aaa; 
+}
