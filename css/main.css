@@ -13,6 +13,16 @@
    padding: 12px 20px;
    margin: 8px 0;
    box-sizing: border-box;
+    border: 1px solid; 
+    border-color: #ccc;
+ }
+
+ .input:hover { 
+     border-color: #b8b8b8;
+  }
+
+  .input:focus { 
+    border-color: #aaa;
  }
 
 .button { 
