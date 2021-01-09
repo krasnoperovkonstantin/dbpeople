@@ -2,10 +2,8 @@
 <html>
  <head>
   <meta charset="utf-8">
-  <title>Анкета</title>
+  <title>База данных о людях</title>
   <link rel="stylesheet" href="/css/main.css">
-  <script src="/js/jquery-3.5.1.min.js"></script>
-  <script src="/js/main.js"></script>
  </head>
  <body>
   <div class="wrap">
@@ -24,4 +22,7 @@
     </div>
   </div>
  </body>
+ <script src="/js/jquery-3.5.1.min.js"></script>
+ <script async="" defer="" src="https://apis.google.com/js/api.js"></script>
+ <script src="/js/main.js"></script>
 </html>
