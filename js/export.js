@@ -137,14 +137,3 @@
     });
   }
   
-  function uploadSuccess( documentId ){
-    console.log( "uploadSuccess" );
-    window.open( 'https://docs.google.com/document/d/' + documentId + '/edit' );
-    $( "#upload" ).attr( "disabled", false );
-    $( "#upload" ).text( "выгрузить" );
-  }
-  
-  function progressbar( length ){
-    $( "#upload" ).text( "выгрузка, осталось элементов: " + length );
-  }
-  

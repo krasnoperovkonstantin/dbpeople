@@ -19,6 +19,7 @@
       </form>
       <button type="submit" name="save" id="save" class="button">сохранить</button>
       <button type="submit" name="upload" id="upload" class="button">выгрузить</button>
+      <label class="label" id="status"></label>
     </div>
   </div>
  </body>
